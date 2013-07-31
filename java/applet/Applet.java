@@ -102,8 +102,9 @@ public class Applet extends Panel {
         // kumano test
         int a = 2;
 
-        if(a==2){
+        if(a<=2){
 	  a = null;
+         
 	}
         s.defaultReadObject();
     }
